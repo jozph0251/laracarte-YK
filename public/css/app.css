@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Wind Song";
+  src: url("C:\Users\JoZeF\Documents\Font css\WindSong-Regular.ttf");
+}
+
+
+
+
+
+
+container
+{
+    background-color: #111;
+}
+p,li
+{
+    font-family: cursive;
+
+}
+h3
+{
+    font-family: Wind Song, cursive;
+
+}
+hr
+{
+    width: 800px;
+    align-items: center;
+
+}
+.blockDef
+{
+    width: 700px;
+    text-align: left;
+    /*
+    border-color: red;
+    border-style: solid;
+    */
+    padding-top: 1.5em;
+    padding-left: 2em;
+}
+.block-laramap
+{
+    width: 700px;
+    text-align: left;
+    /*
+    border-color: red;
+    border-style: solid;
+    */
+    padding-top: 1.5em;
+    padding-left: 2em;
+}
+.block-service-used
+{
+    width: 700px;
+    text-align: left;
+    /*
+    border-color: red;
+    border-style: solid;
+    */
+    padding-top: 1.5em;
+    padding-left: 2em;
+}
+.warning
+{
+    padding-right: auto;
+}
