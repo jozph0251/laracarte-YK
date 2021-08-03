@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default',['title'=>'About'])
 
 @section('content')
     <div class="container">
@@ -6,10 +6,12 @@
             <h3>What is Laracarte ?</h3>
             <p>Laracarte is a clone app of <a href="http://laramap.com" target="blank">Laramap.com</a>
         
-            <p>Feel free to help to improve the <a href="">source code</a></p>
+            <p>
+                Feel free to help to improve the <a href="https://github.com/jozph0251/laracarte-YK" target="_blank">source code</a>
+            </p>
             <div class="warning">
                 <p class="alert alert-warning" >
-                    <strong>This app has built by <a href="https://twitter.com/etsmo">@etsmo</a></strong>
+                    <strong>This app has built by <a href="https://twitter.com/etsmo" target="_blank">@etsmo</a></strong>
                 </p>
             </div>
         </div>

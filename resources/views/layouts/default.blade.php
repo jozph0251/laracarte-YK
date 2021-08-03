@@ -1,7 +1,8 @@
 <!DOCTYPE html>
     <head>
         <meta charset="UTF-8">
-        <title>Laracarte</title>
+        
+        <title>{{ pageTitle($title ?? '') }}Laracarte</title>
         <!-- Mon fichier css-->
         <link rel="stylesheet" type="text/css" href="/css/app.css" />
 
