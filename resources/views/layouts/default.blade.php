@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
         
-        <title>{{ pageTitle($title ?? '') }}Laracarte</title>
+        <title>{{ pageTitle($title ?? '') }}</title>
         <!-- Mon fichier css-->
         <link rel="stylesheet" type="text/css" href="/css/app.css" />
 

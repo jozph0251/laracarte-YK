@@ -4,7 +4,7 @@ if (! function_exists('pageTitle'))
 {
 	function pageTitle($title)
 	{
-		$page_title = 'Laracarte';
+		$page_title = config('app.name');
 		if ($title ==='')
 		{
 			return $page_title;
