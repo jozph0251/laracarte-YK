@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'App\Http\Controllers\PagesController@home')->name('root_path');
 
 Route::get('/about', 'App\Http\Controllers\PagesController@about')->name('about_path');
+
+Route::get('/contact', 'App\Http\Controllers\ContactsController@create')->name('contact_path');
